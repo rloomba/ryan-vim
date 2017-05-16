@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/ryan/workspace/cause_backend'
+let g:netrw_dirhist_2='/Users/ryan/workspace/cause_backend/app'
+let g:netrw_dirhist_3='/Users/ryan/workspace/cause_backend/app/models'
