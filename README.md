@@ -5,3 +5,5 @@ my _simple_ vim config that uses [vim-plug](https://github.com/junegunn/vim-plug
 2. `ln -s ~/path/to/ryan-vim/.vimrc ~/.vimrc`
 3. `ln -s ~/path/to/ryan-vim/.gvimrc ~/.gvimrc`
 4. `ln -s ~/path/to/ryan-vim/.vim ~/.vim`
+5. make sure Vim is installed
+6. while in Vim, `:PlugClean` and then `:PlugInstall`
