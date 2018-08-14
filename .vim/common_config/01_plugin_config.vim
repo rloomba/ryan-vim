@@ -34,13 +34,13 @@ let mapleader = ","
   let g:jsx_ext_required = 0
 
 " AG aka The Silver Searcher
-  "nmap g/ :Ag!<space>
-  "nmap g* :Ag! -w <C-R><C-W><space>
-  "nmap ga :AgAdd!<space>
-  "nmap gn :cnext<CR>
-  "nmap gp :cprev<CR>
-  "nmap gq :ccl<CR>
-  "nmap gl :cwindow<CR>
+  nmap g/ :Ag!<space>
+  nmap g* :Ag! -w <C-R><C-W><space>
+  nmap ga :AgAdd!<space>
+  nmap gn :cnext<CR>
+  nmap gp :cprev<CR>
+  nmap gq :ccl<CR>
+  nmap gl :cwindow<CR>
 
 " STR ag commands
   nnoremap <leader>ag :Ag<space>

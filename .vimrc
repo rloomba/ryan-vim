@@ -28,10 +28,16 @@ Plug 'garbas/vim-snipmate'
 Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'hashivim/vim-terraform'
+Plug 'tomlion/vim-solidity'
+Plug 'mustache/vim-mustache-handlebars'
+Plug 'leafgarland/typescript-vim'
+Plug 'vim-erlang/vim-erlang-runtime'
+Plug 'b4b4r07/vim-hcl'
 call plug#end()
 
 runtime! common_config/*.vim
 
-colorscheme solarized
+syntax enable
 set background=dark
+colorscheme solarized
 

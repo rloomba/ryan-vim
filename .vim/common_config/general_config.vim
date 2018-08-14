@@ -71,6 +71,11 @@ set splitbelow
 " don't beep for errors
 set visualbell
 
+" allow clipboard access
+if $TMUX == ''
+  set clipboard+=unnamed
+endif
+
 " make backspace work in insert mode
 set backspace=indent,eol,start
 
