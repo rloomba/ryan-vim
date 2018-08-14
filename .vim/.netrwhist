@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/ryan/workspace/cause_backend'
-let g:netrw_dirhist_2='/Users/ryan/workspace/cause_backend/app'
-let g:netrw_dirhist_3='/Users/ryan/workspace/cause_backend/app/models'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/ryan/workspace/hedg/hedg-rails/lib'
+let g:netrw_dirhist_2='/Users/ryan/.rvm/gems/ruby-2.1.3/gems/simple_xlsx_reader-1.0.2'
+let g:netrw_dirhist_3='/Users/ryan/.rvm/gems/ruby-2.1.3/gems/simple_xlsx_reader-1.0.2/lib'
+let g:netrw_dirhist_4='/Users/ryan/workspace/rollmob/rollups'
+let g:netrw_dirhist_5='/Users/ryan/workspace/hedg/hedg-rails/app/views/transaction_proposals'
