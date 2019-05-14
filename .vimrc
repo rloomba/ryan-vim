@@ -33,6 +33,7 @@ Plug 'mustache/vim-mustache-handlebars'
 Plug 'leafgarland/typescript-vim'
 Plug 'vim-erlang/vim-erlang-runtime'
 Plug 'b4b4r07/vim-hcl'
+Plug 'posva/vim-vue'
 call plug#end()
 
 runtime! common_config/*.vim

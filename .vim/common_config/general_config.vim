@@ -71,6 +71,9 @@ set splitbelow
 " don't beep for errors
 set visualbell
 
+" don't flash white screen
+set t_vb=
+
 " allow clipboard access
 if $TMUX == ''
   set clipboard+=unnamed
