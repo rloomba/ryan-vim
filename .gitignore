@@ -1,1 +1,3 @@
 logfile
+.vim/plugged/*
+!.vim/plugged/.gitkeep
