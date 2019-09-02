@@ -40,6 +40,7 @@ set directory=/tmp/
 
 " pick up external file modifications
 set autoread
+au FocusGained * :checktime
 
 " don't abandon buffers when unloading
 set hidden

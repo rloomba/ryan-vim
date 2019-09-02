@@ -1,11 +1,15 @@
 let mapleader = ","
 
-
+" vim-airline
+  let g:airline_highlighting_cache=1
 " NERDTree for project drawer
   let NERDTreeHijackNetrw = 0
   let NERDTreeShowHidden=1
+  let NERDTreeAutoDeleteBuffer = 1
   let NERDTreeMapActivateNode='<right>'
   let NERDTreeIgnore=['\.rbc$', '\~$']
+  let NERDTreeMinimalUI = 1
+  let NERDTreeDirArrows = 1
 
   nmap <leader>g :NERDTreeToggle<CR>
   nmap <leader>G :NERDTreeFind<CR>
@@ -35,7 +39,8 @@ let mapleader = ","
 
 " AG aka The Silver Searcher
   nmap g/ :Ag!<space>
-  nmap g* :Ag! -w <C-R><C-W><space>
+"  nmap g* :Ag! -w <C-R><C-W><space>
+  nmap g* :Ag! -w <cword><CR>
   nmap ga :AgAdd!<space>
   nmap gn :cnext<CR>
   nmap gp :cprev<CR>
@@ -44,3 +49,11 @@ let mapleader = ","
 
 " STR ag commands
   nnoremap <leader>ag :Ag<space>
+
+" fzf leader f alias
+  nnoremap <Leader>f :Files<CR>
+
+" Ripgrep alias
+  nnoremap <Leader>rg :Rg<CR>
+  nnoremap rg* :execute 'Rg' expand('<cword>') <CR>
+
