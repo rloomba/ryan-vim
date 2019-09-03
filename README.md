@@ -5,6 +5,6 @@ my _simple_ vim config that uses [vim-plug](https://github.com/junegunn/vim-plug
 2. `ln -s ~/path/to/ryan-vim/.vimrc ~/.vimrc`
 3. `ln -s ~/path/to/ryan-vim/.gvimrc ~/.gvimrc`
 4. `ln -s ~/path/to/ryan-vim/.vim ~/.vim`
-5. install cli dependencies: `brew install neovim ag ripgrep fzf`
+5. install cli dependencies: `brew install neovim ag ripgrep fzf && pip install pynvim`
 6. install youcompleteme, directions: [https://github.com/ycm-core/YouCompleteMe#macos](https://github.com/ycm-core/YouCompleteMe#macos)
 7. while in neovim, `:PlugClean` and then `:PlugInstall`
