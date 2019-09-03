@@ -15,6 +15,9 @@ let mapleader = ","
   nmap <leader>G :NERDTreeFind<CR>
   map <Leader>nt :NERDTreeToggle<CR>
 
+"NERDCommenter
+  map <Leader>c <Plug>NERDCommenterToggle('n', 'Toggle')<Cr>
+
 " CtrlP
   nnoremap <Leader>b :<C-U>CtrlPBuffer<CR>
   nnoremap <Leader>t :<C-U>CtrlP<CR>
