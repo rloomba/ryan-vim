@@ -76,9 +76,7 @@ set visualbell
 set t_vb=
 
 " allow clipboard access
-if $TMUX == ''
-  set clipboard+=unnamed
-endif
+set clipboard^=unnamed,unnamedplus
 
 " make backspace work in insert mode
 set backspace=indent,eol,start

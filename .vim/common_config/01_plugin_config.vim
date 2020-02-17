@@ -15,6 +15,13 @@ let mapleader = ","
   nmap <leader>G :NERDTreeFind<CR>
   map <Leader>nt :NERDTreeToggle<CR>
 
+" automatically open NERDTree when vim opens
+  autocmd vimenter * NERDTree
+
+" close vim if NERDTree is the last window open
+  autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+
 "NERDCommenter
   map <Leader>c <Plug>NERDCommenterToggle('n', 'Toggle')<Cr>
 

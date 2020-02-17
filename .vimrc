@@ -20,6 +20,8 @@ Plug 'tpope/vim-endwise'
 Plug 'garbas/vim-snipmate'
 Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'jceb/vim-orgmode'
+Plug 'tpope/vim-speeddating'
 
 " Language Specifc Plugins
 Plug 'pangloss/vim-javascript'
@@ -39,6 +41,7 @@ Plug 'vim-erlang/vim-erlang-runtime'
 Plug 'b4b4r07/vim-hcl'
 Plug 'posva/vim-vue'
 Plug 'uarun/vim-protobuf'
+Plug 'udalov/kotlin-vim'
 call plug#end()
 
 runtime! common_config/*.vim
